@@ -2,10 +2,20 @@
     line-height: 28px;
     font-size: 24px;
     font-weight: 400;
+    font-family: Inter, Arial, sans-serif;
     text-decoration: none;
     transition: opacity 0.2s ease-in;
+    color: #fff;
 }
 
 .header__lang-link:hover {
-    opacity: 0.8;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

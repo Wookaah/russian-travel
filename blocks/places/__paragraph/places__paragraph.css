@@ -1,0 +1,29 @@
+.places__paragraph {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 29px;
+    max-width: 484px;
+    text-align: left;
+    padding-top: 26px;
+    margin: 0;
+}
+
+.places__paragraph:first-child {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__paragraph {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

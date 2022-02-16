@@ -1,0 +1,19 @@
+.places__website {
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .places__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__website {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}
