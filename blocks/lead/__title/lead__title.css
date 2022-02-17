@@ -9,19 +9,16 @@
     padding-bottom: 32px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .lead__title {
-        margin: 0 auto;
-        max-width: 100%;
+        max-width: 720px;
         font-size: 80px;
         line-height: 84px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     .lead__title {
-        max-width: 100%;
-        margin: 0 auto;
         font-size: 40px;
         line-height: 44px;
         padding-bottom: 16px;

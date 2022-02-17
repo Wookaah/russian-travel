@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__subtitle {
         min-width: 288px;
         font-size: 14px;
@@ -18,14 +18,3 @@
     }
 }
 
-
-
-@media screen and (min-width: 320px) {
-    .cover__subtitle {
-        min-width: 288px;
-        font-size: 14px;
-        line-height: 16px;
-        font-style: normal;
-        margin: 16px 16px 0;
-    }
-}
